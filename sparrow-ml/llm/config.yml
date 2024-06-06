@@ -2,8 +2,9 @@
 # Tested with these LLMs
 #LLM: 'starling-lm:7b-alpha-q4_K_M'
 #LLM: 'starling-lm:7b-alpha-q5_K_M'
-LLM: 'adrienbrault/nous-hermes2pro:Q5_K_M-json'
-#LLM: 'llama3:8b-instruct-q5_K_M'
+# LLM: 'adrienbrault/nous-hermes2pro:Q5_K_M-json'
+# LLM: 'llama3:8b-instruct-q5_K_M'
+LLM: 'llama3'
 EMBEDDINGS: 'sentence-transformers/all-mpnet-base-v2'
 WEAVIATE_URL: 'http://localhost:8080'
 CHUNK_SIZE: 3000
